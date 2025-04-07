@@ -47,7 +47,7 @@ Welcome to the Equation Solver game! This programme is designed to help you prac
   - To answer the question, simply input your answer into the terminal and press **enter key**. In the example above, the correct answer is 9. The game will display whether your answer is correct after each attempt.
   - Please enter your guess using only the numbers on your keyboard (e.g 99), as other forms of input including text (e.g. ninety nine) are not permitted. 
   - After 10 questions have been answered, you will be presented with your final score. 
-  - To play the game again, simply repeat steps included in the previous section. Good luck!
+  - To play the game again, simply rerun the programme using either step 2 or 3 above. Good luck!
 
 ---
 # Technical Documentation
