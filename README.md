@@ -95,13 +95,12 @@ Welcome to the Equation Solver game! This programme is designed to help you prac
 This section contains some aspects that can be developed further to enhance the game's functionality and user engagement.
 - Allowing users to customise the game's difficulty by changing the number of questions asked or the range used in `generate_question`.
 - Adding a timer element that tracks how long a user takes to solve the questions.
-- Adding another score metric that calculates a users overall score based on questions answered correctly and time taken to solve the questions.
+- Adding another score metric that calculates a user's overall score based on questions answered correctly and time taken to solve the questions.
 - Adding a feature where users can save and share their high scores.
 
 ## Licence
 This game is free to use and modify, no licencing restrictions apply.
 
 ## Conclusion
-The equation solver game is a fun, interactive way for users to practice their multiplication skills. This simple programme is designed to be accessible and engaging, but also has the scope to include even more engaging features and customisation in future builds!
-
+The equation solver game is a fun, interactive way for users to practice their multiplication skills. This simple programme is designed to be accessible and engaging, but can also be tweaked further to add even more customisation and other exciting features in future builds! 
 
