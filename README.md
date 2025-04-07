@@ -23,7 +23,7 @@ Welcome to the Equation Solver game! This programme is designed to help you prac
 1. **Download and Installation**
     - Ensure you have python version 3 or higher installed on your system.
     - Python can be downloaded from the official website from the official website: [Python.org](https://www.python.org/downloads/).
-    - No additional library are required for this programme to run.
+    - No additional libraries are required for this programme to run.
     - Ensure you have the following two files installed:
       - game_logic.py
       - equation_solver.py
@@ -45,7 +45,7 @@ Welcome to the Equation Solver game! This programme is designed to help you prac
   - The game tests your mathematical skills by asking you to solve the missing factor (X) in 10 equations.
   - Within the terminal, you will be given an equation and asked "What is X?". For example: "6 * X = 54. What is X?".
   - To answer the question, simply input your answer into the terminal and press **enter key**. In the example above, the correct answer is 9. The game will display whether your answer is correct after each attempt.
-  - Please enter your guess using only the numbers on your keyboard (e.g 99), as other forms of input including text (e.g. ninety nine) are not permitted. 
+  - Please enter your guess using only the numbers on your keyboard (e.g. 99), as other forms of input including text (e.g. ninety nine) are not permitted. 
   - After 10 questions have been answered, you will be presented with your final score. 
   - You can stop the game at any time by pressing **CTRL/Command + C** on your keyboard.
   - To play the game again, simply rerun the programme using either step 2 or 3 above. Good luck!
@@ -55,7 +55,7 @@ Welcome to the Equation Solver game! This programme is designed to help you prac
 
 ## Project Overview
 - This programme is a python-based game designed to help users practice their multiplication skills by generating random multiplication questions and asking users to find the missing factor.
-- The programme is written in python and requires users to have Python version 3 or higher installed.
+- The programme is written in Python and requires users to have Python version 3 or higher installed.
 - The programme is written in a modular way, allowing the game's logic and user interface to be modified and tested independently of one another.
 ## Technologies Used 
 - **Programming Language:** Python Version 3 or higher
