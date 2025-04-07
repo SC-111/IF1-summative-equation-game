@@ -31,7 +31,7 @@ Welcome to the Equation Solver game! This programme is designed to help you prac
 2. **Running the Programme from the console**
    - Open a terminal or command prompt on your computer.
    - Navigate to the folder where the programme files are saved. You can do this by inputting `cd` followed by the folder's path. 
-   - Type the following command and press Enter:
+   - Type the following command and press the **enter key**:
      ```
      python equation_solver.py
      ```
@@ -44,7 +44,7 @@ Welcome to the Equation Solver game! This programme is designed to help you prac
 ## Playing the Game
   - The game tests your mathematical skills by asking you to solve the missing factor (X) in 10 equations.
   - Within the terminal, you will be given an equation and asked "What is X?". For example: "6 * X = 54. What is X?".
-  - To answer the question, simply input your answer into the terminal and press **enter key**. In the example above, the correct answer is 9. The game will display whether your answer is correct after each attempt.
+  - To answer the question, simply input your answer into the terminal and press the **enter key**. In the example above, the correct answer is 9. The game will display whether your answer is correct after each attempt.
   - Please enter your guess using only the numbers on your keyboard (e.g. 99), as other forms of input including text (e.g. ninety nine) are not permitted. 
   - After 10 questions have been answered, you will be presented with your final score. 
   - You can stop the game at any time by pressing **CTRL/Command + C** on your keyboard.
