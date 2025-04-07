@@ -1,4 +1,4 @@
-import random  # Importing random module to generate random numbers for questions
+import random  # Import the random module to generate random numbers for questions
 
 def generate_equation():
     """
