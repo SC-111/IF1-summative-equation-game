@@ -11,7 +11,7 @@
 | |Playing The Game             | Instructions on how to play the game.            |
 |[Technical Documentaion](#technical-documentation)| Project Overview| An outline of the game's purpose, requirements and architecture. |
 | |Further Development | Ideas for developing the game's functionality.         |
-|| License         |  Licensing and usage information.                
+|| Licence         |  Licencing and usage information.                
 | |Conclusion| Final thoughts on the project.                      |
 # User Guide
 
@@ -98,7 +98,7 @@ This section contains some aspects that can be developed further to enhance the 
 - Adding a feature where users can save and share their high scores.
 
 ## Licence
-This game is free to use and modify, no licensing restrictions apply.
+This game is free to use and modify, no licencing restrictions apply.
 
 ## Conclusion
 The equation solver game is a fun, interactive way for users to practice their multiplication skills. This simple programme is designed to be accessible and engaging, but also has the scope to include even more engaging features and customisation in future builds!
