@@ -81,11 +81,12 @@ Welcome to the Equation Solver game! This programme is designed to help you prac
       - Creates a variable called "score" and initialises it to 0.
       - Nests the game's question logic in a loop allowing ten unique questions to be displayed each time the user plays.
       - Calls `generate_equation()` and unpacks the tuple returned to assign `num_1`, `num_2`, and `answer`as local variables within `run_game()`.
-      - Concatenates these variables with strings to create the question shown to the user following the format `str(num_1) + " * X =" + str(answer) + "." + "What is X?"`.
-      - Prompts the user to enter an answer by concatenating `int`with the string `Your Answer:`. Assigns the users input to the variable `user_answer`.
+      - Concatenates these variables with strings to create the question shown to the user, following the format: *num_1 * X = answer. What is X?*.
+      
+      - Prompts the user to enter an answer by concatenating `int`with the displayed string `Your Answer:`. Assigns the users input to the variable `user_answer`.
       - Performs input validation by asking the user to enter a valid integer if they have not done so. Excepts `ValueError`, preventing the game from crashing in such cases. 
       - Assesses the accuracy of the user's answer by comparing `user_answer` with `num_2`. The game will display a message letting the user know whether or not their guess is correct.
-      - If the user's guess is correct (ie `user_answer == num_2`), 1 point is added to their score. If they are incorrect, no points are added and the game will display the correct answer. 
+      - If the user's guess is correct (ie `user_answer == num_2`), 1 point is added to their score. If it is incorrect, no points are added and the terminal will display the correct answer. 
       - Upon the loop's completion, the game will display a message detailing the user's total score. It will also give the user some feedback based on their score. For example, displaying "Fantastic Score - Well Done!" for score of 8 or above.
 
       - This concludes the game. Users can play again by rerunning the programme using instructions provided in this manual. 
