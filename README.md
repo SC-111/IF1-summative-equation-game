@@ -6,10 +6,10 @@
 
 |Section| Subsection  |Description of Subsection|
 |---|------------------------------|:-------------:|
-|[User Guide](#user-guide)| Introduction    |  A brief overview of the user guide  
+|[User Guide](#user-guide)| Introduction    |  A brief overview of the user guide.  
 || Getting Started|  How to install and run the game.                     |   |
 | |Playing The Game             | Instructions on how to play the game.            |
-|[Technical Documentaion](#technical-documentation)| Project Overview| An outline of the game's purpose, requirements and architecture |
+|[Technical Documentaion](#technical-documentation)| Project Overview| An outline of the game's purpose, requirements and architecture. |
 | |Further Development | Ideas for developing the game's functionality.         |
 || License         |  Licensing and usage information.                
 | |Conclusion| Final thoughts on the project.                      |
@@ -47,6 +47,7 @@ Welcome to the Equation Solver game! This programme is designed to help you prac
   - To answer the question, simply input your answer into the terminal and press **enter key**. In the example above, the correct answer is 9. The game will display whether your answer is correct after each attempt.
   - Please enter your guess using only the numbers on your keyboard (e.g 99), as other forms of input including text (e.g. ninety nine) are not permitted. 
   - After 10 questions have been answered, you will be presented with your final score. 
+  - You can stop the game at any time by pressing **CTRL/Command + C** on your keyboard.
   - To play the game again, simply rerun the programme using either step 2 or 3 above. Good luck!
 
 ---
@@ -82,7 +83,7 @@ Welcome to the Equation Solver game! This programme is designed to help you prac
       - Calls `generate_equation()` and unpacks the tuple returned to assign `num_1`, `num_2`, and `answer`as local variables within `run_game()`.
       - Concatenates these variables with strings to create the question shown to the user following the format `str(num_1) + " * X =" + str(answer) + "." + "What is X?"`.
       - Prompts the user to enter an answer by concatenating `int`with the string `Your Answer:`. Assigns the users input to the variable `user_answer`.
-      - Performs input validation by asking the user to enter a valid integer if they have not done so. Excepts `ValueError`preventing the game from crashing in such cases. 
+      - Performs input validation by asking the user to enter a valid integer if they have not done so. Excepts `ValueError`, preventing the game from crashing in such cases. 
       - Assesses the accuracy of the user's answer by comparing `user_answer` with `num_2`. The game will display a message letting the user know whether or not their guess is correct.
       - If the user's guess is correct (ie `user_answer == num_2`), 1 point is added to their score. If they are incorrect, no points are added and the game will display the correct answer. 
       - Upon the loop's completion, the game will display a message detailing the user's total score. It will also give the user some feedback based on their score. For example, displaying "Fantastic Score - Well Done" for score of 8 or above.
@@ -93,7 +94,7 @@ Welcome to the Equation Solver game! This programme is designed to help you prac
 This section contains some aspects that can be developed further to enhance the game's functionality and user engagement.
 - Allowing users to customise the game's difficulty by changing the number of questions asked or the range used in `generate_question`.
 - Adding a timer element that tracks how long a user takes to solve the questions.
-- Adding another score metric that calculates a users high score based on questions answered correctly and time taken to solve the questions.
+- Adding another score metric that calculates a users overall score based on questions answered correctly and time taken to solve the questions.
 - Adding a feature where users can save and share their high scores.
 
 ## Licence
