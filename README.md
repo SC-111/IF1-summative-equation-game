@@ -21,7 +21,7 @@ Welcome to the Equation Solver game! This programme is designed to help you prac
 ## Getting started
 
 1. **Download and Installation**
-    - Ensure you have python version 3 or higher installed on your system.
+    - Ensure you have Python version 3 or higher installed on your system.
     - Python can be downloaded from the official website from the official website: [Python.org](https://www.python.org/downloads/).
     - No additional libraries are required for this programme to run.
     - Ensure you have the following two files installed:
@@ -60,7 +60,7 @@ Welcome to the Equation Solver game! This programme is designed to help you prac
 ## Technologies Used 
 - **Programming Language:** Python Version 3 or higher
 - **Modules:** 
-  - `random` (standard python library module)
+  - `random` (standard Python library module)
   - `equation_solver.py` (custom module)
   - `game_logic.py` (custom module)
 
