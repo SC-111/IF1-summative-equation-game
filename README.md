@@ -22,8 +22,8 @@ Welcome to the Equation Solver game! This programme is designed to help you prac
 
 1. **Download and Installation**
     - Ensure you have python version 3 or higher installed on your system.
-    - Python can be downloaded from the official website from the official website: [Python.org](https://www.python.org/downloads/)
-    - No additional library are required for this programme to run
+    - Python can be downloaded from the official website from the official website: [Python.org](https://www.python.org/downloads/).
+    - No additional library are required for this programme to run.
     - Ensure you have the following two files installed:
       - game_logic.py
       - equation_solver.py
@@ -43,7 +43,7 @@ Welcome to the Equation Solver game! This programme is designed to help you prac
 
 ## Playing the Game
   - The game tests your mathematical skills by asking you to solve the missing factor (X) in 10 equations.
-  - Within the terminal, you will be given an equation and asked "What is X?". For example: "6 * X = 54. What is X?"
+  - Within the terminal, you will be given an equation and asked "What is X?". For example: "6 * X = 54. What is X?".
   - To answer the question, simply input your answer into the terminal and press **enter key**. In the example above, the correct answer is 9. The game will display whether your answer is correct after each attempt.
   - Please enter your guess using only the numbers on your keyboard (e.g 99), as other forms of input including text (e.g. ninety nine) are not permitted. 
   - After 10 questions have been answered, you will be presented with your final score. 
@@ -86,8 +86,8 @@ Welcome to the Equation Solver game! This programme is designed to help you prac
       - Performs input validation by asking the user to enter a valid integer if they have not done so. Excepts `ValueError`, preventing the game from crashing in such cases. 
       - Assesses the accuracy of the user's answer by comparing `user_answer` with `num_2`. The game will display a message letting the user know whether or not their guess is correct.
       - If the user's guess is correct (ie `user_answer == num_2`), 1 point is added to their score. If they are incorrect, no points are added and the game will display the correct answer. 
-      - Upon the loop's completion, the game will display a message detailing the user's total score. It will also give the user some feedback based on their score. For example, displaying "Fantastic Score - Well Done" for score of 8 or above.
-        print ("Fantastic Score - Well Done!")`
+      - Upon the loop's completion, the game will display a message detailing the user's total score. It will also give the user some feedback based on their score. For example, displaying "Fantastic Score - Well Done!" for score of 8 or above.
+
       - This concludes the game. Users can play again by rerunning the programme using instructions provided in this manual. 
 
 ## Further Development 
