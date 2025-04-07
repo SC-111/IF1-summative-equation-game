@@ -54,7 +54,7 @@ Welcome to the Equation Solver game! This programme is designed to help you prac
 # Technical Documentation
 
 ## Project Overview
-- This programme is a python-based game designed to help users practice their multiplication skills by generating random multiplication questions and asking users to find the missing factor.
+- This programme is a Python-based game designed to help users practice their multiplication skills by generating random multiplication questions and asking users to find the missing factor.
 - The programme is written in Python and requires users to have Python version 3 or higher installed.
 - The programme is written in a modular way, allowing the game's logic and user interface to be modified and tested independently of one another.
 ## Technologies Used 
