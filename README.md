@@ -83,7 +83,7 @@ Welcome to the Equation Solver game! This programme is designed to help you prac
       - Calls `generate_equation()` and unpacks the tuple returned to assign `num_1`, `num_2`, and `answer`as local variables within `run_game()`.
       - Concatenates these variables with strings to create the question shown to the user, following the format: *num_1 * X = answer. What is X?*.
       
-      - Prompts the user to enter an answer by concatenating `int`with the displayed string `Your Answer:`. Assigns the users input to the variable `user_answer`.
+      - Prompts the user to enter an answer by concatenating `int`with the displayed string `Your Answer:`. Assigns the user's input to the variable `user_answer`.
       - Performs input validation by asking the user to enter a valid integer if they have not done so. Excepts `ValueError`, preventing the game from crashing in such cases. 
       - Assesses the accuracy of the user's answer by comparing `user_answer` with `num_2`. The game will display a message letting the user know whether or not their guess is correct.
       - If the user's guess is correct (ie `user_answer == num_2`), 1 point is added to their score. If it is incorrect, no points are added and the terminal will display the correct answer. 
